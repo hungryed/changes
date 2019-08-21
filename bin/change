@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/change'
+
+Change::Cli.change_for(ARGV)
